@@ -210,7 +210,7 @@
           "platform": "windows",
           "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-win-679b6f5.tar.gz",
           "rel": null,
-          "targetPath": "left4dead2/addons"
+          "targetPath": "left4dead2"
         },
         {
           "_id": "9ec12429ac10818b7812ef36dced8e30a3e65fe0",
@@ -219,7 +219,7 @@
           "platform": "linux",
           "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-linux-679b6f5.tar.gz",
           "rel": null,
-          "targetPath": "left4dead2/addons"
+          "targetPath": "left4dead2"
         }
       ]
     },
