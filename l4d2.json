@@ -569,6 +569,23 @@
           "targetPath": "left4dead2/addons/sourcemod/gamedata"
         }
       ]
+    },
+    {
+      "_id": "74b3d9c8c1c4064aeb8c31369e24f0ed8ef7c1a4",
+      "name": "[L4D & L4D2] Teammate Flashlight",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showpost.php?p=1765864;https://forums.alliedmods.net/showthread.php?p=1765864#post1765864",
+      "resources": [
+        {
+          "_id": "aa538bf667914f24f5b7bc0f838b5086cf6adcb7",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=108940&d=1346582629",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
     }
   ],
   "addons": [

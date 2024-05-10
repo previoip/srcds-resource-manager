@@ -119,7 +119,6 @@ class sSteamAppInfoEntResource(sSteamAppInfoEntity):
     self._update_uid()
 
   def _update_uid(self):
-
     self._uid: str = self.hash(self._url)
 
 class sSteamAppInfoEntPlugin(sSteamAppInfoEntity):
