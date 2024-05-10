@@ -1,0 +1,598 @@
+{
+  "config": {
+    "_id": "9cddfe7a770836ff08ace4dc7920064f65c218a5",
+    "name": "l4d2ds",
+    "appId": "550",
+    "appIdDedicatedServer": "222680",
+    "baseDir": "./serverfiles",
+    "workshopDir": "./serverfiles/left4dead2/addons"
+  },
+  "plugins": [
+    {
+      "_id": "95b1b893dd25326231861652316c831f285df0cc",
+      "name": "sourcemod",
+      "exclude": false,
+      "rel": "",
+      "resources": [
+        {
+          "_id": "6d9a0613c87cd542c507d0bebdaba5799c06cce7",
+          "name": "sourcemod win",
+          "exclude": false,
+          "platform": "windows",
+          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6956-windows.zip",
+          "rel": null,
+          "targetPath": "left4dead2"
+        },
+        {
+          "_id": "edea1c9c34aeeca191de399ff5459fe99c388918",
+          "name": "sourcemod linux",
+          "exclude": false,
+          "platform": "linux",
+          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6956-linux.tar.gz",
+          "rel": null,
+          "targetPath": "left4dead2"
+        }
+      ]
+    },
+    {
+      "_id": "2fa484757a3d22ece125b82b453ed4a27d761061",
+      "name": "metamod",
+      "exclude": false,
+      "rel": "",
+      "resources": [
+        {
+          "_id": "844d137084525b23a04fd2904e5e26731eb9e60e",
+          "name": "metamod win",
+          "exclude": false,
+          "platform": "windows",
+          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1153-windows.zip",
+          "rel": null,
+          "targetPath": "left4dead2"
+        },
+        {
+          "_id": "10c88c79f6255154b110b4a898f3ba3b89b74312",
+          "name": "metamod linux",
+          "exclude": false,
+          "platform": "linux",
+          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1153-linux.tar.gz",
+          "rel": null,
+          "targetPath": "left4dead2"
+        }
+      ]
+    },
+    {
+      "_id": "5df4e2d31eb9fc8d0626b9568a1e9080f063a59a",
+      "name": "Command and ConVar - Buffer Overflow Fixer (2.9)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=309656",
+      "resources": [
+        {
+          "_id": "183c8018d189c0fc14fd0ee7cd7591adad58de40",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=170776",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "115c76e93e3b3580e59abb117eff5d4e6226b04f",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=170774&d=1676120181",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "b90a4d24d3a8d4805a6325cf459aa9eddc3dd020",
+      "name": "Source Scramble",
+      "exclude": false,
+      "rel": "https://github.com/nosoop/SMExt-SourceScramble",
+      "resources": [
+        {
+          "_id": "cca36fa3cd1cc4067d0e7afd1b6d0fcf16fc3b8a",
+          "name": "None",
+          "exclude": false,
+          "platform": "windows",
+          "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.zip",
+          "rel": null,
+          "targetPath": "left4dead2"
+        },
+        {
+          "_id": "448e32172671ef037f5ee2f9bbcb56236fdb958f",
+          "name": "None",
+          "exclude": false,
+          "platform": "linux",
+          "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.tar.gz",
+          "rel": null,
+          "targetPath": "left4dead2"
+        }
+      ]
+    },
+    {
+      "_id": "030d10f57c455f382016c8af62bc1d497462121c",
+      "name": "left4downtown2",
+      "exclude": true,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=134032",
+      "resources": [
+        {
+          "_id": "8a4f496aabcfeabcc70c09b4b5519dc6f226edc4",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=111241&d=1350927414",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "d6bda91fd2690ad8f80ec03f1c248c11b8b5690e",
+      "name": "Left 4 DHooks Direct (1.145)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=321696",
+      "resources": [
+        {
+          "_id": "006d4099c2c5393723ba8956edc19b15fd9e24a2",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=195507&d=1712139012",
+          "rel": null,
+          "targetPath": "left4dead2/addons"
+        }
+      ]
+    },
+    {
+      "_id": "e79db5537ea9a9f7c59bcbd5a82c10ce33bc7b47",
+      "name": "SteamWorks",
+      "exclude": true,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=229556",
+      "resources": [
+        {
+          "_id": "7d6ae7cd260cd776bdc73e9a57f302de1a6e3ad3",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=130399&d=1391895786",
+          "rel": null,
+          "targetPath": ""
+        }
+      ]
+    },
+    {
+      "_id": "2b460630969a621383efca3df73dd6af58483efc",
+      "name": "Updater",
+      "exclude": true,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=169095",
+      "resources": [
+        {
+          "_id": "f6c0315530d56e2b61ab9a01e4fe1b1765820838",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=183438&d=1598611003",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod"
+        }
+      ]
+    },
+    {
+      "_id": "116a2657c8239ad54d92c01f637a387f84675770",
+      "name": "l4dtoolz",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showpost.php?p=1984946&amp;postcount=1211?p=1984946&amp;postcount=1211",
+      "resources": [
+        {
+          "_id": "6cf80720891ce70946eb9be245eb78e168ecef47",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?s=e0406bf43fbf79b62aa35fe08eca2b58&attachmentid=122230&d=1373147952",
+          "rel": null,
+          "targetPath": "left4dead2/addons"
+        }
+      ]
+    },
+    {
+      "_id": "8fb7a40dde4f967ff398edf2b7dcb2bdadb9fccc",
+      "name": "bebop",
+      "exclude": true,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=1000446",
+      "resources": [
+        {
+          "_id": "6e92b49436ed3e2eb3db59e9f633d2891c359104",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=54217&d=1259334888",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "d901a07435d416eeabcfeaad9ce38a1f97ca9c83",
+      "name": "MultiSlots",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=1239544",
+      "resources": [
+        {
+          "_id": "3585a495777d3322e646640e604f300a126cff17",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=69674",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "11e666473d51c8b7d3fbb2188c988606d6b42fe9",
+          "name": "None",
+          "exclude": true,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69674&d=1279161226",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting"
+        },
+        {
+          "_id": "fe5aa4f497ff04777b9b608bcfb94dab06a5e543",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69686&d=1279172270",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "5cb7a6050c5a34265da069be5cfbf0dd51c772b9",
+      "name": "Survivor AFK Fix (1.2)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=132409",
+      "resources": [
+        {
+          "_id": "02ab2db58a9f3abc4ad0a18c950feb8eb174cf41",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=73422",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "6c5cdf1a76e3960d192add5a5a0af0819fc85a5e",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69687&d=1279172316",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "16c5cbf91677f79877bb43d38e034ab38799c200",
+      "name": "Remove Lobby Reservation (When Full) 1.1.1",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=94415",
+      "resources": [
+        {
+          "_id": "a73d3ffe9d57f91b0129726ff5d508ffa6777d57",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=56932&d=1262977327",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "c0d6f369cb5aa441688931f4d27d1631d6d8f3bc",
+          "name": "None",
+          "exclude": true,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=181866",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "2ea9d5fa72d35c0c445b6d63c8d6670587cbc8ec",
+          "name": "None",
+          "exclude": true,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=56931&d=1262977323",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting"
+        }
+      ]
+    },
+    {
+      "_id": "b77f2611804942e76d5aba6c8e44b1dbf797a0c4",
+      "name": "Grenade Transfer",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=122293",
+      "resources": [
+        {
+          "_id": "2b45bcb34d485bb5e19d4198f80a2af5fe3a90b4",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=62150",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "235d5555cfa7f251c2b756e58b47fa168d21dc54",
+      "name": "Incapped Crawling with Animation (2.9)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=137381",
+      "resources": [
+        {
+          "_id": "5fe85de95665b176dd3c069c50ef40fb6ffe868d",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=178444",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "3d3bb933ddfaf43a64f3f8a42829fc1cd9e5410d",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=104036&d=1673192879",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod"
+        }
+      ]
+    },
+    {
+      "_id": "84afae9345af72ad9fb55d9817940956913e3f74",
+      "name": "Incapped Self Help",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=129444",
+      "resources": [
+        {
+          "_id": "b26550c43914d00886c549b2c4b8dfbeb252b8cc",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=68206",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "725a5ce8352e7556f343421a72efdcfc3ed87263",
+      "name": "Survivor Bot AI Improver",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2804907",
+      "resources": [
+        {
+          "_id": "49a8b5355d4ab801e2f4e0dfc1f543e6d5a1e642",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200940&d=1686749873",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "7eb4b1c127c953e7aa7da69ab1a4cc84d3861ddc",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200673&d=1684923269",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "9afa5c5a8961436b3b731889e8b9a73efd203a56",
+      "name": "Pick Up / No Auto Switch (4.3)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=339742",
+      "resources": [
+        {
+          "_id": "8b1fa7419a98fbe7456e74894479d826466bd36a",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=197154&d=1664437043",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        },
+        {
+          "_id": "f36920fd02b3efbdb265f9e2dd518875eb77278b",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198810&d=1672824839",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/translations"
+        },
+        {
+          "_id": "27d0f5e2f5612328a6c3eac23b62f8bb10fcc079",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198812&d=1672824839",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "72fb04235cac382586299fa24b37b33c76dbd4ba",
+      "name": "Automatic Healing (Health Regeneration) v4.14",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2769399",
+      "resources": [
+        {
+          "_id": "426518ea609aaf82311e4530031927e4fad0dd1b",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=203829&d=1711092787",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting/include"
+        },
+        {
+          "_id": "f02314d9d7057028812e268fff31f61556b387f7",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=203828&d=1711092787",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting"
+        }
+      ]
+    },
+    {
+      "_id": "c573a8fc34fe7a5112d7393b4d609f50961cf594",
+      "name": "Healing Gnome (1.17)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=179267",
+      "resources": [
+        {
+          "_id": "641a5c1098a2a7e8633b95887d39c5f2a2687b4e",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=105848",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "c912c8ef14798a8e12627b552f4b4f1362fff544",
+      "name": "M60_GrenadeLauncher_patches",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=323408",
+      "resources": [
+        {
+          "_id": "3d200c4344ef5588335fa4d119b482ad38ef6027",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=180886",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "0ec7f46459bf9f416402f6781417ae1cb9d797b5",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=199749",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "24fb2a913a30af571a0e5fc213a7b0a275642006",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189816&d=1623859602",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "b0a33bb8e0e4c6688ff54846b2314279e4d651c1",
+      "name": "Incapped Weapons Patch (1.36)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=322859",
+      "resources": [
+        {
+          "_id": "ea2750c1a9c3baab0786b0c38e13a8b2cf6d7330",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199675&d=1711406277",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "9d2038da4417afc7715e2b2aaef8f1de72298412",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198873&d=1673191665",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod"
+        },
+        {
+          "_id": "7ba7fa3f49f1bd26efc60594b181dbf6c6fc97a6",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199674&d=1676887926",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "_id": "182a57e717741b151383352d7ac1e9d4258d5353",
+      "name": "Lord Of The Rings Campaign (Part 1/2)",
+      "exclude": false,
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2458892093"
+    },
+    {
+      "_id": "d63f6c43dcf7cd15428a84a80e8690b705ab3b09",
+      "name": "Lord Of The Rings Campaign (Part 2/2)",
+      "exclude": false,
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2465072250"
+    },
+    {
+      "_id": "edc0019307e4e746db1a2c2829c117c0d386a178",
+      "name": "Dark Wood Extended [Collection]",
+      "exclude": false,
+      "url": "https://steamcommunity.com/workshop/filedetails/?id=575682109"
+    },
+    {
+      "_id": "9b887efd3629fd1d6db23440e4d6291056258e71",
+      "name": "Yama_l4d [Collection]",
+      "exclude": false,
+      "url": "https://steamcommunity.com/workshop/filedetails/?id=170392241"
+    },
+    {
+      "_id": "fda787c0f482c1f0ebb94e9da265ed9ae6f9c167",
+      "name": "Evil Dead 2 Cabin [Materials]",
+      "exclude": false,
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920866468"
+    },
+    {
+      "_id": "ec74c04cee971ec6f2de9d12974e98f9574d4f8a",
+      "name": "Evil Dead 2 Cabin",
+      "exclude": false,
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920871779"
+    },
+    {
+      "_id": "2b36d8b1499dc3b322f8932ebcfbbbadaa50d21b",
+      "name": "Warcelona",
+      "exclude": false,
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1910147798"
+    },
+    {
+      "_id": "2502888d19cf3f91d385f0bb25cc4a9d419a4f1f",
+      "name": "Chernobyl: Chapter One [Collection]",
+      "exclude": true,
+      "url": "https://steamcommunity.com/workshop/filedetails/?id=1646203073"
+    }
+  ]
+}

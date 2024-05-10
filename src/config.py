@@ -19,6 +19,7 @@ class Config:
     with open(path, 'w') as fh:
       self._parser.write(fh)
 
+
   @property
   def info_file(self):
     return self._parser['DEFAULT'].get('appinfo')
@@ -31,10 +32,21 @@ class Config:
       v += '.json'
     self._parser['DEFAULT']['appinfo'] = v
 
+
   @property
   def platform(self):
     return self._parser['DEFAULT'].get('platform')
 
   @platform.setter
   def platform(self, v):
+    v = str(v)
     self._parser['DEFAULT']['platform'] = v
+
+  @property
+  def target_dir(self):
+    return self._parser['DEFAULT'].get('tgtdir')
+
+  @target_dir.setter
+  def target_dir(self, v):
+    v = str(v)
+    self._parser['DEFAULT']['tgtdir'] = v

@@ -1,18 +1,23 @@
 import typing as t
 import requests
 import os
+import shutil
 import tempfile
 import tarfile
+import functools
+import re
 from zipfile import ZipFile
 from io import IOBase
 from src.logger import init_logger
-from urllib.parse import urlparse
-from collections import namedtuple
+from urllib.parse import urlparse, parse_qs
+from collections import namedtuple, deque
 from time import time
 
 logger = init_logger('utils')
 
 class PathUtils:
+
+  join = os.path.join
 
   @staticmethod
   def isdir(path):
@@ -159,7 +164,7 @@ class HTTPUtils:
             raise cls.RetryableConnectionError('{} {} forcing retry attempt'.format(resp.status_code, resp.reason))
           else:
             raise requests.ConnectionError('cannot establish connection: {} {}'.format(resp.status_code, resp.reason))
-        except (requests.Timeout, RetryableConnectionError):
+        except (requests.Timeout, cls.RetryableConnectionError):
           logger.warning('retrying connection {}'.format(i_retry))
           sleep(2.5)
           break
@@ -242,7 +247,7 @@ class HTTPUtils:
   @classmethod
   def parse_file_info(cls, headers, url):
     content_disposition = headers.get('content-disposition', '')
-    file_name = parse_headers_file_name(headers)
+    file_name = cls.parse_headers_file_name(headers)
     if not file_name:
       file_name = cls.url_basename(url)
     _, _, file_type = PathUtils.extract_file_type(file_name)
@@ -251,11 +256,25 @@ class HTTPUtils:
     return cls.file_info_t(file_name, file_type, content_length, content_disposition, content_type)
 
   @classmethod
+  def parse_workshop_ids(cls, string):
+    if string.isnumeric():
+      return [string]
+    parsed_url = urlparse(string)
+    if not parsed_url.query:
+      logger.warning('cannot parse url: {}'.format(string))
+      return None
+    parsed_query = parse_qs(parsed_url.query)
+    ids = parsed_query.get('id')
+    if ids is None or len(ids) == 0:
+      logger.warning('missing query id on url: {}'.format(string))
+    return list(ids)
+
+  @classmethod
   def download_file(cls, session, url, dst_dir, file_name='', chunk_size=4096, head_err_max_retry=5):
     logger.info('retrieving file info: {}'.format(url))
 
     skip_get_request = False
-    resp = cls.http_request(session, 'HEAD', url, allow_redirects=False, force_retry=True)
+    resp = cls.http_request(session, 'HEAD', url, allow_redirects=False, force_retry=False)
     if resp is None:
       logger.warning('cannot retrieve HEAD, changing method to GET')
       resp = cls.http_request(session, 'GET', url, allow_redirects=False, stream=True)
@@ -290,3 +309,44 @@ class HTTPUtils:
     resp.close()
 
     return status, dst_path, file_info
+
+  @classmethod
+  def download_steam_workshop(cls, session, dst_dir, workshop_id):
+    db_hostname = 'https://db.steamworkshopdownloader.io'
+    db_api_path = 'prod/api/details/file'
+    data = bytes(f'[{workshop_id}]', 'utf8')
+
+    db_resp = cls.http_request(session, 'POST', url='{}/{}'.format(db_hostname, db_api_path), data=data)
+    if db_resp is None:
+      logger.warning('cannot retrieve workshop info: {}'.format(workshop_id))
+      return
+    workshop_db_res = db_resp.json()
+
+    for workshop_ent in workshop_db_res:
+    
+      result = workshop_ent.get('result')
+      file_url = workshop_ent.get('file_url')
+      preview_url = workshop_ent.get('preview_url')
+      file_name = workshop_ent.get('filename')
+      is_collection = workshop_ent.get('show_subscribe_all', False)
+      is_collection = is_collection and not workshop_ent.get('can_subscribe', False)
+
+      logger.info('downloading workshop: {}'.format(file_name))
+
+      if result: 
+        if is_collection:
+          logger.info('workshop collection found instead, processing children')
+          for workshop_child_ent in workshop_ent.get('children'):
+            workshop_child_id = workshop_child_ent.get('publishedfileid')
+            if not workshop_child_id is None:
+              cls.download_steam_workshop(session, dst_dir, workshop_child_id)
+        else:
+          workshop_resource_urls = [file_url, preview_url]
+          for workshop_resource_url in workshop_resource_urls:
+            if not workshop_resource_url is None:
+              export_dir = dst_dir
+              PathUtils.ensure_dir(export_dir)
+              status, download_file_path, file_info = cls.download_file(session, workshop_resource_url, export_dir)
+              if not status and not download_file_path is None:
+                logger.warning('destroying unfinished addon file')
+                PathUtils.delete_file(download_file_path)
