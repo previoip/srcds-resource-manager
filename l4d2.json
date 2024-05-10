@@ -132,13 +132,13 @@
     {
       "_id": "d6bda91fd2690ad8f80ec03f1c248c11b8b5690e",
       "name": "Left 4 DHooks Direct (1.145)",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=321696",
       "resources": [
         {
           "_id": "006d4099c2c5393723ba8956edc19b15fd9e24a2",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=195507&d=1712139012",
           "rel": null,
@@ -189,22 +189,38 @@
         {
           "_id": "6cf80720891ce70946eb9be245eb78e168ecef47",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?s=e0406bf43fbf79b62aa35fe08eca2b58&attachmentid=122230&d=1373147952",
+          "rel": null,
+          "targetPath": "left4dead2/addons"
+        }
+      ]
+    },
+    {
+      "_id": "36e5007f1c32f859ba37254d26c78c1c5a361330",
+      "name": "l4dtoolz (Latest)",
+      "exclude": false,
+      "rel": "https://github.com/accelerator74/l4dtoolz",
+      "resources": [
+        {
+          "_id": "72687ca7325a1114ef3bda01df215ce1a23d2655",
+          "name": "None",
+          "exclude": false,
           "platform": "windows",
           "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-win-679b6f5.tar.gz",
           "rel": null,
           "targetPath": "left4dead2/addons"
         },
         {
-          "_id": "6cf80720891ce70946eb9be245eb78e168ecef47",
+          "_id": "9ec12429ac10818b7812ef36dced8e30a3e65fe0",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "linux",
           "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-linux-679b6f5.tar.gz",
           "rel": null,
           "targetPath": "left4dead2/addons"
         }
-
       ]
     },
     {
@@ -323,13 +339,13 @@
     {
       "_id": "b77f2611804942e76d5aba6c8e44b1dbf797a0c4",
       "name": "Grenade Transfer",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=122293",
       "resources": [
         {
           "_id": "2b45bcb34d485bb5e19d4198f80a2af5fe3a90b4",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=62150",
           "rel": null,
@@ -340,13 +356,13 @@
     {
       "_id": "235d5555cfa7f251c2b756e58b47fa168d21dc54",
       "name": "Incapped Crawling with Animation (2.9)",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=137381",
       "resources": [
         {
           "_id": "5fe85de95665b176dd3c069c50ef40fb6ffe868d",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=178444",
           "rel": null,
@@ -355,7 +371,7 @@
         {
           "_id": "3d3bb933ddfaf43a64f3f8a42829fc1cd9e5410d",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=104036&d=1673192879",
           "rel": null,
@@ -366,13 +382,13 @@
     {
       "_id": "84afae9345af72ad9fb55d9817940956913e3f74",
       "name": "Incapped Self Help",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=129444",
       "resources": [
         {
           "_id": "b26550c43914d00886c549b2c4b8dfbeb252b8cc",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=68206",
           "rel": null,
@@ -383,13 +399,13 @@
     {
       "_id": "725a5ce8352e7556f343421a72efdcfc3ed87263",
       "name": "Survivor Bot AI Improver",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?p=2804907",
       "resources": [
         {
           "_id": "49a8b5355d4ab801e2f4e0dfc1f543e6d5a1e642",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200940&d=1686749873",
           "rel": null,
@@ -398,7 +414,7 @@
         {
           "_id": "7eb4b1c127c953e7aa7da69ab1a4cc84d3861ddc",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200673&d=1684923269",
           "rel": null,
@@ -409,13 +425,13 @@
     {
       "_id": "9afa5c5a8961436b3b731889e8b9a73efd203a56",
       "name": "Pick Up / No Auto Switch (4.3)",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=339742",
       "resources": [
         {
           "_id": "8b1fa7419a98fbe7456e74894479d826466bd36a",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=197154&d=1664437043",
           "rel": null,
@@ -424,7 +440,7 @@
         {
           "_id": "f36920fd02b3efbdb265f9e2dd518875eb77278b",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198810&d=1672824839",
           "rel": null,
@@ -433,7 +449,7 @@
         {
           "_id": "27d0f5e2f5612328a6c3eac23b62f8bb10fcc079",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198812&d=1672824839",
           "rel": null,
@@ -487,13 +503,13 @@
     {
       "_id": "c912c8ef14798a8e12627b552f4b4f1362fff544",
       "name": "M60_GrenadeLauncher_patches",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=323408",
       "resources": [
         {
           "_id": "3d200c4344ef5588335fa4d119b482ad38ef6027",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=180886",
           "rel": null,
@@ -502,7 +518,7 @@
         {
           "_id": "0ec7f46459bf9f416402f6781417ae1cb9d797b5",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=199749",
           "rel": null,
@@ -511,7 +527,7 @@
         {
           "_id": "24fb2a913a30af571a0e5fc213a7b0a275642006",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189816&d=1623859602",
           "rel": null,
@@ -522,13 +538,13 @@
     {
       "_id": "b0a33bb8e0e4c6688ff54846b2314279e4d651c1",
       "name": "Incapped Weapons Patch (1.36)",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?t=322859",
       "resources": [
         {
           "_id": "ea2750c1a9c3baab0786b0c38e13a8b2cf6d7330",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199675&d=1711406277",
           "rel": null,
@@ -537,7 +553,7 @@
         {
           "_id": "9d2038da4417afc7715e2b2aaef8f1de72298412",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198873&d=1673191665",
           "rel": null,
@@ -546,7 +562,7 @@
         {
           "_id": "7ba7fa3f49f1bd26efc60594b181dbf6c6fc97a6",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199674&d=1676887926",
           "rel": null,

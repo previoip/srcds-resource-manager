@@ -99,18 +99,19 @@ class Main:
         continue
       print('{:>02d}    | - [{}] {}'.format(n, ' ' if ent.exclude else 'x', ent.name))
 
-  def print_plugins(self, plugins, exclude_excluded=False):
+  def print_plugins(self, plugins, exclude_excluded=False, with_resources=True):
     for n, ent in enumerate(plugins):
       if exclude_excluded and ent.exclude:
         continue
       print('{:>02d}    | - [{}] {}'.format(n, ' ' if ent.exclude else 'x', ent.name))
-      for m, rsc in enumerate(ent.resources):
-        if exclude_excluded and rsc.exclude:
-          continue
-        if exclude_excluded and rsc.platform != '*':
-          if rsc.platform != self.config.platform:
+      if with_resources:
+        for m, rsc in enumerate(ent.resources):
+          if exclude_excluded and rsc.exclude:
             continue
-        print('{:>02d} {:>02d} |   - [{}] ({}) {}'.format(n, m, ' ' if rsc.exclude else 'x', rsc.platform, rsc.url))
+          if exclude_excluded and rsc.platform != '*':
+            if rsc.platform != self.config.platform:
+              continue
+          print('{:>02d} {:>02d} |   - [{}] ({}) {}'.format(n, m, ' ' if rsc.exclude else 'x', rsc.platform, rsc.url))
 
   def h_list_addons(self, ns):
     print('available addons:')
@@ -303,7 +304,7 @@ class Main:
     self.print_appinfo_stats()
     print()
     print('selected plugins:')
-    self.print_plugins(self.appinfo.plugins, exclude_excluded=True)
+    self.print_plugins(self.appinfo.plugins, exclude_excluded=True, with_resources=False)
     print()
     print('selected addons:')
     self.print_addons(self.appinfo.addons, exclude_excluded=True)
