@@ -243,13 +243,13 @@
     {
       "_id": "d901a07435d416eeabcfeaad9ce38a1f97ca9c83",
       "name": "MultiSlots",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?p=1239544",
       "resources": [
         {
           "_id": "3585a495777d3322e646640e604f300a126cff17",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=69674",
           "rel": null,
@@ -258,7 +258,7 @@
         {
           "_id": "11e666473d51c8b7d3fbb2188c988606d6b42fe9",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69674&d=1279161226",
           "rel": null,
@@ -267,7 +267,7 @@
         {
           "_id": "fe5aa4f497ff04777b9b608bcfb94dab06a5e543",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69686&d=1279172270",
           "rel": null,
@@ -582,6 +582,23 @@
           "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=108940&d=1346582629",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "74b3d9c8c1c4064aeb8c31369e24f0ed8ef7c1a4",
+      "name": "Lifesteal Melee",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2779699",
+      "resources": [
+        {
+          "_id": "aa538bf667914f24f5b7bc0f838b5086cf6adcb7",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=195096",
           "rel": null,
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         }
