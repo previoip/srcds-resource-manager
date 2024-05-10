@@ -320,7 +320,11 @@ class HTTPUtils:
     if db_resp is None:
       logger.warning('cannot retrieve workshop info: {}'.format(workshop_id))
       return
-    workshop_db_res = db_resp.json()
+    try:
+      workshop_db_res = db_resp.json()
+    except requests.exceptions.JSONDecodeError as e:
+      logger.error(e)
+      return
 
     for workshop_ent in workshop_db_res:
     

@@ -63,13 +63,13 @@
     {
       "_id": "5df4e2d31eb9fc8d0626b9568a1e9080f063a59a",
       "name": "Command and ConVar - Buffer Overflow Fixer (2.9)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=309656",
       "resources": [
         {
           "_id": "183c8018d189c0fc14fd0ee7cd7591adad58de40",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=170776",
           "rel": null,
@@ -78,7 +78,7 @@
         {
           "_id": "115c76e93e3b3580e59abb117eff5d4e6226b04f",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=170774&d=1676120181",
           "rel": null,
@@ -89,13 +89,13 @@
     {
       "_id": "b90a4d24d3a8d4805a6325cf459aa9eddc3dd020",
       "name": "Source Scramble",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://github.com/nosoop/SMExt-SourceScramble",
       "resources": [
         {
           "_id": "cca36fa3cd1cc4067d0e7afd1b6d0fcf16fc3b8a",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "windows",
           "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.zip",
           "rel": null,
@@ -104,7 +104,7 @@
         {
           "_id": "448e32172671ef037f5ee2f9bbcb56236fdb958f",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "linux",
           "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.tar.gz",
           "rel": null,
@@ -121,7 +121,7 @@
         {
           "_id": "8a4f496aabcfeabcc70c09b4b5519dc6f226edc4",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=111241&d=1350927414",
           "rel": null,
@@ -132,13 +132,13 @@
     {
       "_id": "d6bda91fd2690ad8f80ec03f1c248c11b8b5690e",
       "name": "Left 4 DHooks Direct (1.145)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=321696",
       "resources": [
         {
           "_id": "006d4099c2c5393723ba8956edc19b15fd9e24a2",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=195507&d=1712139012",
           "rel": null,
@@ -155,7 +155,7 @@
         {
           "_id": "7d6ae7cd260cd776bdc73e9a57f302de1a6e3ad3",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=130399&d=1391895786",
           "rel": null,
@@ -172,7 +172,7 @@
         {
           "_id": "f6c0315530d56e2b61ab9a01e4fe1b1765820838",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=183438&d=1598611003",
           "rel": null,
@@ -183,18 +183,28 @@
     {
       "_id": "116a2657c8239ad54d92c01f637a387f84675770",
       "name": "l4dtoolz",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showpost.php?p=1984946&amp;postcount=1211?p=1984946&amp;postcount=1211",
       "resources": [
         {
           "_id": "6cf80720891ce70946eb9be245eb78e168ecef47",
           "name": "None",
-          "exclude": false,
-          "platform": "*",
-          "url": "https://forums.alliedmods.net/attachment.php?s=e0406bf43fbf79b62aa35fe08eca2b58&attachmentid=122230&d=1373147952",
+          "exclude": true,
+          "platform": "windows",
+          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-win-679b6f5.tar.gz",
+          "rel": null,
+          "targetPath": "left4dead2/addons"
+        },
+        {
+          "_id": "6cf80720891ce70946eb9be245eb78e168ecef47",
+          "name": "None",
+          "exclude": true,
+          "platform": "linux",
+          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-linux-679b6f5.tar.gz",
           "rel": null,
           "targetPath": "left4dead2/addons"
         }
+
       ]
     },
     {
@@ -206,7 +216,7 @@
         {
           "_id": "6e92b49436ed3e2eb3db59e9f633d2891c359104",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=54217&d=1259334888",
           "rel": null,
@@ -217,13 +227,13 @@
     {
       "_id": "d901a07435d416eeabcfeaad9ce38a1f97ca9c83",
       "name": "MultiSlots",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?p=1239544",
       "resources": [
         {
           "_id": "3585a495777d3322e646640e604f300a126cff17",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=69674",
           "rel": null,
@@ -241,7 +251,7 @@
         {
           "_id": "fe5aa4f497ff04777b9b608bcfb94dab06a5e543",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69686&d=1279172270",
           "rel": null,
@@ -252,13 +262,13 @@
     {
       "_id": "5cb7a6050c5a34265da069be5cfbf0dd51c772b9",
       "name": "Survivor AFK Fix (1.2)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=132409",
       "resources": [
         {
           "_id": "02ab2db58a9f3abc4ad0a18c950feb8eb174cf41",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=73422",
           "rel": null,
@@ -267,7 +277,7 @@
         {
           "_id": "6c5cdf1a76e3960d192add5a5a0af0819fc85a5e",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69687&d=1279172316",
           "rel": null,
@@ -278,13 +288,13 @@
     {
       "_id": "16c5cbf91677f79877bb43d38e034ab38799c200",
       "name": "Remove Lobby Reservation (When Full) 1.1.1",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=94415",
       "resources": [
         {
           "_id": "a73d3ffe9d57f91b0129726ff5d508ffa6777d57",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=56932&d=1262977327",
           "rel": null,
@@ -313,13 +323,13 @@
     {
       "_id": "b77f2611804942e76d5aba6c8e44b1dbf797a0c4",
       "name": "Grenade Transfer",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=122293",
       "resources": [
         {
           "_id": "2b45bcb34d485bb5e19d4198f80a2af5fe3a90b4",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=62150",
           "rel": null,
@@ -330,13 +340,13 @@
     {
       "_id": "235d5555cfa7f251c2b756e58b47fa168d21dc54",
       "name": "Incapped Crawling with Animation (2.9)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=137381",
       "resources": [
         {
           "_id": "5fe85de95665b176dd3c069c50ef40fb6ffe868d",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=178444",
           "rel": null,
@@ -345,7 +355,7 @@
         {
           "_id": "3d3bb933ddfaf43a64f3f8a42829fc1cd9e5410d",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=104036&d=1673192879",
           "rel": null,
@@ -356,13 +366,13 @@
     {
       "_id": "84afae9345af72ad9fb55d9817940956913e3f74",
       "name": "Incapped Self Help",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=129444",
       "resources": [
         {
           "_id": "b26550c43914d00886c549b2c4b8dfbeb252b8cc",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=68206",
           "rel": null,
@@ -373,13 +383,13 @@
     {
       "_id": "725a5ce8352e7556f343421a72efdcfc3ed87263",
       "name": "Survivor Bot AI Improver",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?p=2804907",
       "resources": [
         {
           "_id": "49a8b5355d4ab801e2f4e0dfc1f543e6d5a1e642",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200940&d=1686749873",
           "rel": null,
@@ -388,7 +398,7 @@
         {
           "_id": "7eb4b1c127c953e7aa7da69ab1a4cc84d3861ddc",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200673&d=1684923269",
           "rel": null,
@@ -399,13 +409,13 @@
     {
       "_id": "9afa5c5a8961436b3b731889e8b9a73efd203a56",
       "name": "Pick Up / No Auto Switch (4.3)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=339742",
       "resources": [
         {
           "_id": "8b1fa7419a98fbe7456e74894479d826466bd36a",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=197154&d=1664437043",
           "rel": null,
@@ -414,7 +424,7 @@
         {
           "_id": "f36920fd02b3efbdb265f9e2dd518875eb77278b",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198810&d=1672824839",
           "rel": null,
@@ -423,7 +433,7 @@
         {
           "_id": "27d0f5e2f5612328a6c3eac23b62f8bb10fcc079",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198812&d=1672824839",
           "rel": null,
@@ -434,13 +444,13 @@
     {
       "_id": "72fb04235cac382586299fa24b37b33c76dbd4ba",
       "name": "Automatic Healing (Health Regeneration) v4.14",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?p=2769399",
       "resources": [
         {
           "_id": "426518ea609aaf82311e4530031927e4fad0dd1b",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=203829&d=1711092787",
           "rel": null,
@@ -449,7 +459,7 @@
         {
           "_id": "f02314d9d7057028812e268fff31f61556b387f7",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=203828&d=1711092787",
           "rel": null,
@@ -460,13 +470,13 @@
     {
       "_id": "c573a8fc34fe7a5112d7393b4d609f50961cf594",
       "name": "Healing Gnome (1.17)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=179267",
       "resources": [
         {
           "_id": "641a5c1098a2a7e8633b95887d39c5f2a2687b4e",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=105848",
           "rel": null,
@@ -477,13 +487,13 @@
     {
       "_id": "c912c8ef14798a8e12627b552f4b4f1362fff544",
       "name": "M60_GrenadeLauncher_patches",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=323408",
       "resources": [
         {
           "_id": "3d200c4344ef5588335fa4d119b482ad38ef6027",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=180886",
           "rel": null,
@@ -492,7 +502,7 @@
         {
           "_id": "0ec7f46459bf9f416402f6781417ae1cb9d797b5",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=199749",
           "rel": null,
@@ -501,7 +511,7 @@
         {
           "_id": "24fb2a913a30af571a0e5fc213a7b0a275642006",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189816&d=1623859602",
           "rel": null,
@@ -512,13 +522,13 @@
     {
       "_id": "b0a33bb8e0e4c6688ff54846b2314279e4d651c1",
       "name": "Incapped Weapons Patch (1.36)",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?t=322859",
       "resources": [
         {
           "_id": "ea2750c1a9c3baab0786b0c38e13a8b2cf6d7330",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199675&d=1711406277",
           "rel": null,
@@ -527,7 +537,7 @@
         {
           "_id": "9d2038da4417afc7715e2b2aaef8f1de72298412",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=198873&d=1673191665",
           "rel": null,
@@ -536,7 +546,7 @@
         {
           "_id": "7ba7fa3f49f1bd26efc60594b181dbf6c6fc97a6",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=199674&d=1676887926",
           "rel": null,
@@ -549,43 +559,43 @@
     {
       "_id": "182a57e717741b151383352d7ac1e9d4258d5353",
       "name": "Lord Of The Rings Campaign (Part 1/2)",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2458892093"
     },
     {
       "_id": "d63f6c43dcf7cd15428a84a80e8690b705ab3b09",
       "name": "Lord Of The Rings Campaign (Part 2/2)",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2465072250"
     },
     {
       "_id": "edc0019307e4e746db1a2c2829c117c0d386a178",
       "name": "Dark Wood Extended [Collection]",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=575682109"
     },
     {
       "_id": "9b887efd3629fd1d6db23440e4d6291056258e71",
       "name": "Yama_l4d [Collection]",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=170392241"
     },
     {
       "_id": "fda787c0f482c1f0ebb94e9da265ed9ae6f9c167",
       "name": "Evil Dead 2 Cabin [Materials]",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920866468"
     },
     {
       "_id": "ec74c04cee971ec6f2de9d12974e98f9574d4f8a",
       "name": "Evil Dead 2 Cabin",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920871779"
     },
     {
       "_id": "2b36d8b1499dc3b322f8932ebcfbbbadaa50d21b",
       "name": "Warcelona",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1910147798"
     },
     {
