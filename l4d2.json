@@ -4,8 +4,8 @@
     "name": "l4d2ds",
     "appId": "550",
     "appIdDedicatedServer": "222680",
-    "baseDir": "./serverfiles",
-    "workshopDir": "./serverfiles/left4dead2/addons"
+    "baseDir": "../serverfiles",
+    "workshopDir": "../serverfiles/left4dead2/addons"
   },
   "plugins": [
     {
@@ -89,13 +89,13 @@
     {
       "_id": "b90a4d24d3a8d4805a6325cf459aa9eddc3dd020",
       "name": "Source Scramble",
-      "exclude": true,
+      "exclude": false,
       "rel": "https://github.com/nosoop/SMExt-SourceScramble",
       "resources": [
         {
           "_id": "cca36fa3cd1cc4067d0e7afd1b6d0fcf16fc3b8a",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "windows",
           "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.zip",
           "rel": null,
@@ -104,7 +104,7 @@
         {
           "_id": "448e32172671ef037f5ee2f9bbcb56236fdb958f",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "linux",
           "url": "https://github.com/nosoop/SMExt-SourceScramble/releases/download/0.7.1.1/package.tar.gz",
           "rel": null,
