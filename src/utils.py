@@ -18,6 +18,7 @@ logger = init_logger('utils')
 class PathUtils:
 
   join = os.path.join
+  basename = os.path.basename
 
   @staticmethod
   def isdir(path):

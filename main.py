@@ -16,6 +16,7 @@ def fetch_argv():
 class Main:
   config_file = './conf.ini'
   download_dir = './download'
+  working_dir = PathUtils.basename(__file__)
 
   def __init__(self):
     self.loop = True
@@ -49,6 +50,9 @@ class Main:
       print('  {} : {}'.format(field, d.get(field)))
     print()
 
+  @classmethod
+  def resolve_path(cls, path):
+    return PathUtils.join(cls.working_dir, path)
 
   @classmethod
   def stdin_form_ent(cls, ent):
@@ -295,7 +299,7 @@ class Main:
     if need_confirm and not self.confirm():
       return
     for workshop_id in workshop_ids:
-      HTTPUtils.download_steam_workshop(self.session, self.appinfo.config.workshop_dir, workshop_id)
+      HTTPUtils.download_steam_workshop(self.session, self.resolve_path(self.appinfo.config.workshop_dir), workshop_id)
 
   def h_install(self, ns):
     print()
@@ -327,7 +331,7 @@ class Main:
         print('downloading plugin resource {}'.format(resource.url))
         url = resource.url
         target_path = resource.target_path
-        target_path = PathUtils.join(self.appinfo.config.base_dir, target_path)
+        target_path = PathUtils.join(self.resolve_path(self.appinfo.config.base_dir), target_path)
         self.auto_download_file(url, target_path)
 
     for addon in self.appinfo.addons:

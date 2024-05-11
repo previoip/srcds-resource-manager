@@ -588,17 +588,51 @@
       ]
     },
     {
-      "_id": "74b3d9c8c1c4064aeb8c31369e24f0ed8ef7c1a4",
+      "_id": "a7f3f70742de2768f6b8805f9a63b25e3648b6ea",
       "name": "Lifesteal Melee",
       "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?p=2779699",
       "resources": [
         {
-          "_id": "aa538bf667914f24f5b7bc0f838b5086cf6adcb7",
+          "_id": "f7d11a3ea3399e31f806ec52c38505366e0d1812",
           "name": "None",
           "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=195096",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "c343f6b4fc24dda80396bf8568552d69afcec958",
+      "name": "[L4D2] Melee Swing Speed",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2748248",
+      "resources": [
+        {
+          "_id": "a3d456fc7c5525b857df81dbe3df12f545775224",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://github.com/fbef0102/L4D2-Plugins/raw/master/l4d2_melee_swing/plugins/l4d2_melee_swing.smx",
+          "rel": "https://github.com/fbef0102/L4D2-Plugins/tree/master/l4d2_melee_swing",
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "03f9f65e7c5764b72c65861636dd8e7658e03d62",
+      "name": "[L4D/L4D2] Infected Health Gauge (Tank & Witch & Special)",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=125747",
+      "resources": [
+        {
+          "_id": "d9910fe0661ea52c3a3f5887732f86e4598708e5",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=64839",
           "rel": null,
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         }
