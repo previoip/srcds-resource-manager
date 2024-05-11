@@ -19,6 +19,7 @@ class PathUtils:
 
   join = os.path.join
   basename = os.path.basename
+  dirname = os.path.dirname
 
   @staticmethod
   def isdir(path):

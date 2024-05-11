@@ -16,7 +16,7 @@ def fetch_argv():
 class Main:
   config_file = './conf.ini'
   download_dir = './download'
-  working_dir = PathUtils.basename(__file__)
+  working_dir = PathUtils.dirname(__file__)
 
   def __init__(self):
     self.loop = True
