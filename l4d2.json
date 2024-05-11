@@ -571,6 +571,58 @@
       ]
     },
     {
+      "_id": "5b713df779a3dee8e21491e8f5e5a24e1cbee085",
+      "name": "[L4D/L4D2]ThirdPersonShoulder_Detect",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2529779",
+      "resources": [
+        {
+          "_id": "7ed2339bc3dd33a20b5c6cd00ff609739fce7ed7",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=181930",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "85d5a2c31c6107ca78988d178ac2ac525f8c1243",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=174115&d=1551584684",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting/include"
+        },
+        {
+          "_id": "21618d8eed329178ef24b492897aeddaee3033f7",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=181930&d=1591594420",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting"
+        }
+      ]
+    },
+    {
+      "_id": "73ab430ed3e5bf294a36915fb236fbfa2c0c609a",
+      "name": "[L4D2]Survivor_Legs",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=299560",
+      "resources": [
+        {
+          "_id": "e73e1f6298b5c170d1f3df3aab7fe10de7e8148b",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=201116",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
       "_id": "74b3d9c8c1c4064aeb8c31369e24f0ed8ef7c1a4",
       "name": "[L4D & L4D2] Teammate Flashlight",
       "exclude": false,
