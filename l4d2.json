@@ -12,14 +12,14 @@
       "_id": "95b1b893dd25326231861652316c831f285df0cc",
       "name": "sourcemod",
       "exclude": false,
-      "rel": "",
+      "rel": "https://www.sourcemod.net/",
       "resources": [
         {
           "_id": "6d9a0613c87cd542c507d0bebdaba5799c06cce7",
           "name": "sourcemod win",
           "exclude": false,
           "platform": "windows",
-          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6956-windows.zip",
+          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6964-windows.zip",
           "rel": null,
           "targetPath": "left4dead2"
         },
@@ -28,7 +28,7 @@
           "name": "sourcemod linux",
           "exclude": false,
           "platform": "linux",
-          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6956-linux.tar.gz",
+          "url": "https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6964-linux.tar.gz",
           "rel": null,
           "targetPath": "left4dead2"
         }
@@ -38,14 +38,14 @@
       "_id": "2fa484757a3d22ece125b82b453ed4a27d761061",
       "name": "metamod",
       "exclude": false,
-      "rel": "",
+      "rel": "https://www.metamodsource.net",
       "resources": [
         {
           "_id": "844d137084525b23a04fd2904e5e26731eb9e60e",
           "name": "metamod win",
           "exclude": false,
           "platform": "windows",
-          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1153-windows.zip",
+          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1155-windows.zip",
           "rel": null,
           "targetPath": "left4dead2"
         },
@@ -54,7 +54,7 @@
           "name": "metamod linux",
           "exclude": false,
           "platform": "linux",
-          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1153-linux.tar.gz",
+          "url": "https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1155-linux.tar.gz",
           "rel": null,
           "targetPath": "left4dead2"
         }
@@ -69,7 +69,7 @@
         {
           "_id": "183c8018d189c0fc14fd0ee7cd7591adad58de40",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=170776",
           "rel": null,
@@ -78,7 +78,7 @@
         {
           "_id": "115c76e93e3b3580e59abb117eff5d4e6226b04f",
           "name": "None",
-          "exclude": true,
+          "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=170774&d=1676120181",
           "rel": null,
@@ -208,7 +208,7 @@
           "name": "None",
           "exclude": false,
           "platform": "windows",
-          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-win-679b6f5.tar.gz",
+          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-win-e5e9bac.tar.gz",
           "rel": null,
           "targetPath": "left4dead2"
         },
@@ -217,7 +217,7 @@
           "name": "None",
           "exclude": false,
           "platform": "linux",
-          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-linux-679b6f5.tar.gz",
+          "url": "https://github.com/accelerator74/l4dtoolz/releases/download/2.0.1/l4dtoolz-l4d2-linux-e5e9bac.tar.gz",
           "rel": null,
           "targetPath": "left4dead2"
         }
@@ -272,6 +272,23 @@
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69686&d=1279172270",
           "rel": null,
           "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "81e946084c93c2bf90b3e5ed8899d27cad51238a",
+      "name": "[L4D2] Campaign/Map Voter",
+      "exclude": true,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=1140972",
+      "resources": [
+        {
+          "_id": "22a670eac0464fed0d801b0bce1879466e6dad97",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=63113",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
         }
       ]
     },
@@ -695,50 +712,62 @@
     {
       "_id": "182a57e717741b151383352d7ac1e9d4258d5353",
       "name": "Lord Of The Rings Campaign (Part 1/2)",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2458892093"
     },
     {
       "_id": "d63f6c43dcf7cd15428a84a80e8690b705ab3b09",
       "name": "Lord Of The Rings Campaign (Part 2/2)",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2465072250"
     },
     {
       "_id": "edc0019307e4e746db1a2c2829c117c0d386a178",
       "name": "Dark Wood Extended [Collection]",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=575682109"
     },
     {
       "_id": "9b887efd3629fd1d6db23440e4d6291056258e71",
       "name": "Yama_l4d [Collection]",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=170392241"
     },
     {
       "_id": "fda787c0f482c1f0ebb94e9da265ed9ae6f9c167",
       "name": "Evil Dead 2 Cabin [Materials]",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920866468"
     },
     {
       "_id": "ec74c04cee971ec6f2de9d12974e98f9574d4f8a",
       "name": "Evil Dead 2 Cabin",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1920871779"
     },
     {
       "_id": "2b36d8b1499dc3b322f8932ebcfbbbadaa50d21b",
       "name": "Warcelona",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1910147798"
     },
     {
       "_id": "2502888d19cf3f91d385f0bb25cc4a9d419a4f1f",
       "name": "Chernobyl: Chapter One [Collection]",
-      "exclude": true,
+      "exclude": false,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=1646203073"
+    },
+    {
+      "_id": "0a13c25e64b32d72240f5d65404b3c35bb1068b6",
+      "name": "Back To School Campaign",
+      "exclude": false,
+      "url": "https://steamcommunity.com/workshop/filedetails/?id=121115793"
+    },
+    {
+      "_id": "f156bf60936e21a8f6191da99039508acfb43279",
+      "name": "I Hate Mountains",
+      "exclude": false,
+      "url": "https://steamcommunity.com/workshop/filedetails/?id=121069410"
     }
   ]
 }
