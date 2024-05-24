@@ -767,6 +767,32 @@
           "targetPath": "left4dead2/addons/sourcemod/gamedata"
         }
       ]
+    },
+    {
+      "_id": "ba644ce10bd06ec7d1d35e7114115c181370ca05",
+      "name": "[L4D & L4D2] Survivor Bot Select",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=877908",
+      "resources": [
+        {
+          "_id": "f0ac03b5cdc2980530504fd98902853dcf0cce7f",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=153523",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "5997336be8c7cc6fde09a0c4e087a5fab6928eaf",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=153524&d=14601111290",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
     }
   ],
   "addons": [
