@@ -15,7 +15,7 @@
       "rel": "https://www.sourcemod.net/",
       "resources": [
         {
-          "_id": "6d9a0613c87cd542c507d0bebdaba5799c06cce7",
+          "_id": "8e2ea7ad9baadb498f005ad2836da2034aa01375",
           "name": "sourcemod win",
           "exclude": false,
           "platform": "windows",
@@ -24,7 +24,7 @@
           "targetPath": "left4dead2"
         },
         {
-          "_id": "edea1c9c34aeeca191de399ff5459fe99c388918",
+          "_id": "321a1c493f59e0e784605806c6a1453591c38bcc",
           "name": "sourcemod linux",
           "exclude": false,
           "platform": "linux",
@@ -41,7 +41,7 @@
       "rel": "https://www.metamodsource.net",
       "resources": [
         {
-          "_id": "844d137084525b23a04fd2904e5e26731eb9e60e",
+          "_id": "ae1f82f7fa3739822f040bacc1887c9967126a03",
           "name": "metamod win",
           "exclude": false,
           "platform": "windows",
@@ -50,7 +50,7 @@
           "targetPath": "left4dead2"
         },
         {
-          "_id": "10c88c79f6255154b110b4a898f3ba3b89b74312",
+          "_id": "04eef3e59065b50dbacdadac7f7489fa4b37252a",
           "name": "metamod linux",
           "exclude": false,
           "platform": "linux",
@@ -204,7 +204,7 @@
       "rel": "https://github.com/accelerator74/l4dtoolz",
       "resources": [
         {
-          "_id": "72687ca7325a1114ef3bda01df215ce1a23d2655",
+          "_id": "28edd9c6c9076f427d7136705c6703307773b0f7",
           "name": "None",
           "exclude": false,
           "platform": "windows",
@@ -213,7 +213,7 @@
           "targetPath": "left4dead2"
         },
         {
-          "_id": "9ec12429ac10818b7812ef36dced8e30a3e65fe0",
+          "_id": "ef565bc83f5e32b03be65d1ba021896b21b9770d",
           "name": "None",
           "exclude": false,
           "platform": "linux",
@@ -243,7 +243,7 @@
     {
       "_id": "d901a07435d416eeabcfeaad9ce38a1f97ca9c83",
       "name": "MultiSlots",
-      "exclude": false,
+      "exclude": true,
       "rel": "https://forums.alliedmods.net/showthread.php?p=1239544",
       "resources": [
         {
@@ -258,7 +258,7 @@
         {
           "_id": "11e666473d51c8b7d3fbb2188c988606d6b42fe9",
           "name": "None",
-          "exclude": false,
+          "exclude": true,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69674&d=1279161226",
           "rel": null,
@@ -270,6 +270,41 @@
           "exclude": false,
           "platform": "*",
           "url": "https://forums.alliedmods.net/attachment.php?attachmentid=69686&d=1279172270",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
+    },
+    {
+      "_id": "4938debb3908bb0ddc1a962425ce96ca0295c624",
+      "name": "[L4D2] ABM: A MultiSlots / SuperVersus Alternative",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?t=291562 https://forums.alliedmods.net/showpost.php?p=2748953&postcount=517",
+      "resources": [
+        {
+          "_id": "bd56fd848ae6370d5b0cb2524af0c0fa52894b3a",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189692&d=1662444298",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "c35f07e2010b4c55feb0ce6fa3d74fcc7c695639",
+          "name": "None",
+          "exclude": true,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189616&d=1662444298",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/scripting"
+        },
+        {
+          "_id": "a0c19cf4c7ea2ff1a61d54e32cb7fdae5ea4dc0b",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=189617&d=1622900635",
           "rel": null,
           "targetPath": "left4dead2/addons/sourcemod/gamedata"
         }
@@ -708,13 +743,13 @@
       ]
     },
     {
-      "_id": "03f9f65e7c5764b72c65861636dd8e7658e03d62",
+      "_id": "ba644ce10bd06ec7d1d35e7114115c181370ca05",
       "name": "[L4D & L4D2] Laser Sights",
       "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?p=877908",
       "resources": [
         {
-          "_id": "d9910fe0661ea52c3a3f5887732f86e4598708e5",
+          "_id": "f0ac03b5cdc2980530504fd98902853dcf0cce7f",
           "name": "None",
           "exclude": false,
           "platform": "*",
@@ -723,7 +758,7 @@
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         },
         {
-          "_id": "d9910fe0661ea52c3a3f5887732f86e4598708e5",
+          "_id": "5997336be8c7cc6fde09a0c4e087a5fab6928eaf",
           "name": "None",
           "exclude": false,
           "platform": "*",
