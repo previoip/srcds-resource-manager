@@ -706,6 +706,32 @@
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         }
       ]
+    },
+    {
+      "_id": "03f9f65e7c5764b72c65861636dd8e7658e03d62",
+      "name": "[L4D & L4D2] Laser Sights",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=877908",
+      "resources": [
+        {
+          "_id": "d9910fe0661ea52c3a3f5887732f86e4598708e5",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://www.sourcemod.net/vbcompiler.php?file_id=53932",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        },
+        {
+          "_id": "d9910fe0661ea52c3a3f5887732f86e4598708e5",
+          "name": "None",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=112982&d=1354992800",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/gamedata"
+        }
+      ]
     }
   ],
   "addons": [
@@ -760,7 +786,7 @@
     {
       "_id": "0a13c25e64b32d72240f5d65404b3c35bb1068b6",
       "name": "Back To School Campaign",
-      "exclude": false,
+      "exclude": true,
       "url": "https://steamcommunity.com/workshop/filedetails/?id=121115793"
     },
     {
