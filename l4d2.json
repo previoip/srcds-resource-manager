@@ -836,6 +836,23 @@
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         }
       ]
+    },
+    {
+      "_id": "eb85afa7855e39f5253060aeacb2fe997099d2f1",
+      "name": "[L4D1 & L4D2] Map changer with rating system",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=2618414",
+      "resources": [
+        {
+          "_id": "97edb31563d24e99cf1ce9260f5fcece777d6f00",
+          "name": "",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=200264&d=1681642868",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod"
+        }
+      ]
     }
   ],
   "addons": [
