@@ -769,13 +769,13 @@
       ]
     },
     {
-      "_id": "ba644ce10bd06ec7d1d35e7114115c181370ca05",
+      "_id": "394f107f1babb8c188654254df0632fe4e3f9916",
       "name": "[L4D & L4D2] Survivor Bot Select",
       "exclude": false,
       "rel": "https://forums.alliedmods.net/showthread.php?p=877908",
       "resources": [
         {
-          "_id": "f0ac03b5cdc2980530504fd98902853dcf0cce7f",
+          "_id": "4f37ef6ad52668a99ff684f9185a297be9b02741",
           "name": "None",
           "exclude": false,
           "platform": "*",
@@ -784,7 +784,7 @@
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         },
         {
-          "_id": "5997336be8c7cc6fde09a0c4e087a5fab6928eaf",
+          "_id": "0329be9cbc87d79e367f38cec75939e65ca41509",
           "name": "None",
           "exclude": false,
           "platform": "*",
@@ -815,6 +815,23 @@
           "exclude": false,
           "platform": "*",
           "url": "https://www.sourcemod.net/vbcompiler.php?file_id=75942",
+          "rel": null,
+          "targetPath": "left4dead2/addons/sourcemod/plugins"
+        }
+      ]
+    },
+    {
+      "_id": "4251d6613e58dc08f3c508a001f97fd3b1fc736d",
+      "name": "[L4D2] Automatic Campaign Switcher (ACS) [v2.0.0 (Nov 16, 2021)] - OVERHAULED!",
+      "exclude": false,
+      "rel": "https://forums.alliedmods.net/showthread.php?p=969651",
+      "resources": [
+        {
+          "_id": "58342575332c565fe7e4aeecb68ce328a6a2595e",
+          "name": "",
+          "exclude": false,
+          "platform": "*",
+          "url": "https://forums.alliedmods.net/attachment.php?attachmentid=192313&d=1637125418",
           "rel": null,
           "targetPath": "left4dead2/addons/sourcemod/plugins"
         }

@@ -340,6 +340,35 @@ class Main:
         continue
       self.auto_download_addon(addon.url, need_confirm=False)
 
+  def h_install_plugin(self, ns):
+    index = self.eval_index(ns)
+    if index is None:
+      return
+    if index >= len(self.appinfo.plugins):
+      ns.node_.print_err('index out of bound: {}'.format(index))
+      return
+    else:
+      plugin = self.appinfo.plugins[index]
+      if plugin.exclude:
+        print('skipping plugin {}'.format(plugin.name))
+        return
+      print('installing plugin {}'.format(plugin.name))
+      if not self.confirm():
+        return
+      for resource in plugin.resources:
+        if resource.exclude:
+          print('skipping plugin resource {}'.format(resource.url))
+          return
+        if resource.platform != '*':
+          if resource.platform != self.config.platform:
+            print('skipping plugin resource {}'.format(resource.url))
+            return
+        print('downloading plugin resource {}'.format(resource.url))
+        url = resource.url
+        target_path = resource.target_path
+        target_path = PathUtils.join(self.resolve_path(self.appinfo.config.base_dir), target_path)
+        self.auto_download_file(url, target_path)
+
   def h_install_workshop(self, ns):
     print()
     print('installing workshop {}'.format(ns.value))
@@ -385,8 +414,9 @@ class Main:
 
     r_6     = self.router.register('save').set_hook(self.h_save)
     r_7     = self.router.register('install').set_hook(self.h_install)
-    r_8     = self.router.register('installworkshop').set_namespace(ns_value).set_hook(self.h_install_workshop)
-    r_9     = self.router.register('exit').set_hook(self.h_exit)
+    r_8     = self.router.register('installplugin').set_namespace(ns_index).set_hook(self.h_install_plugin)
+    r_9     = self.router.register('installworkshop').set_namespace(ns_value).set_hook(self.h_install_workshop)
+    r_10    = self.router.register('exit').set_hook(self.h_exit)
 
     print(self.router.root.repr_tree(str))
     return
