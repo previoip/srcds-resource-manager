@@ -168,7 +168,6 @@ class HTTPUtils:
             raise requests.ConnectionError('cannot establish connection: {} {}'.format(resp.status_code, resp.reason))
         except (requests.Timeout, cls.RetryableConnectionError):
           logger.warning('retrying connection {}'.format(i_retry))
-          sleep(2.5)
           break
         except Exception as e:
           logger.error('error occured: {}'.format(e))
