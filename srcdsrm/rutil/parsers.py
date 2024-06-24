@@ -1,5 +1,6 @@
 import os.path
 import requests
+import urllib.parse
 from re import compile as re_compile
 from ..pathutils import validate_path_string
 
@@ -23,7 +24,7 @@ class response_parser:
   @classmethod
   def get_filename(cls, resp: requests.Response) -> str:
     content_disposition = resp.headers.get('content-disposition', '')
-    eval_default = lambda: os.path.basename(resp.url.rstrip('\\/'))
+    eval_default = lambda: os.path.basename(urllib.parse.unquote(resp.url.rstrip('\\/')))
     if not content_disposition:
       return eval_default()
     filename = cls._search_content_disposition_filename(content_disposition)

@@ -1,12 +1,33 @@
-from srcdsrm.rutil.dl import downloader, new_session
-from srcdsrm.rutil.parsers import response_parser
+import sys
 import os
+import traceback
+from srcdsrm.rutil.dl import new_session, downloader
 
-sess = new_session()
-# downloader.to_file(sess, 'https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1155-windows.zip', './dumps')
+
+class Main:
+  def __init__(self):
+    self.sess = new_session()
+
+  def _loop(self):
+    while True:
+      pass
+
+  def run(self):
+    try:
+      self._loop()
+    except KeyboardInterrupt as e:
+      pass
+    except Exception as e:
+      self.on_error()
+
+  def on_exit(self):
+    self.sess.close()
+
+  def on_error(self):
+    print(traceback.format_exc(), file=sys.stderr)
 
 
-import tqdm
-
-t = tqdm.tqdm([], rate_fmt='')
-# print(t.rate_fmt)
+if __name__ == '__main__':
+  main = Main()
+  main.run()
+  main.on_exit()
